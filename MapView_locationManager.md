@@ -22,3 +22,11 @@ This practice is about the MapView and LocationManager.
  Let's add some codes that make them work.
  I do the similiar thing in the two IBActions.
  one is to determine mapType and the other is to determine the trackingMode
+ 
+ In "didUpdateLocations",I add a NSLog ,and you can find that the system update the location information about once a second.
+ 
+ The codes Inside the dispatch_once method is to make the view focus on where the coordinate is the will resize the view.
+ 
+ The "dispatch_once" method will run once no matter the didUpdateLocations run how many times.
+ 
+ I also add a regionDidChangeAnimated method that to detect whether users move or zoom in/out the map.
