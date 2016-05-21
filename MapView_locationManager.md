@@ -15,7 +15,7 @@ This practice is about the MapView and LocationManager.
   In "ViewController" ,Don't forget to implement the delegate for mapView and LocationManager -<MKMapViewDelegate,CLLocationManagerDelegate>
   
   In "viewDidLoad" , we have to judge the IOS version whether it support the authorization for users to determine to turn on and off the locating function or not.
- 
+ ![image](https://raw.githubusercontent.com/chen-chien-lung/MapView_LocationManager/master/pics/judge1.png)
  then we prepare for the locationManager and start to update the location information.
  
  I know you remember that we implement two IBActions for the two Segmented Controler.
