@@ -28,10 +28,11 @@ This practice is about the MapView and LocationManager.
  ![image](https://raw.githubusercontent.com/chen-chien-lung/MapView_LocationManager/master/pics/maptype.png)
  
  In "didUpdateLocations",I add a NSLog ,and you can find that the system update the location information about once a second.
- ![image](https://raw.githubusercontent.com/chen-chien-lung/MapView_LocationManager/master/pics/change.png)
+
  
  The codes inside the dispatch_once method is to make the view focus on where the coordinate is then will resize the view.
  The "dispatch_once" method will run once no matter the didUpdateLocations run how many times.
  ![image](https://raw.githubusercontent.com/chen-chien-lung/MapView_LocationManager/master/pics/dispatch_once.png)
  
  I also add a regionDidChangeAnimated method that to detect whether users move or zoom in/out the map.
+ ![image](https://raw.githubusercontent.com/chen-chien-lung/MapView_LocationManager/master/pics/change.png)
