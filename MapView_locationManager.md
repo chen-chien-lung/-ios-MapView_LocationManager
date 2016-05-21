@@ -9,7 +9,7 @@ This practice is about the MapView and LocationManager.
   It is where we have to add the framework for CoreLocation and MapKit.
   CoreLocation: the framework for locating function.
   MapKit : the framework for map function.
-  
+  ![image](https://raw.githubusercontent.com/chen-chien-lung/MapView_LocationManager/master/pics/framework.png)
 3.Let's talk about the codes
 
   In "ViewController" ,Don't forget to implement the delegate for mapView and LocationManager -<MKMapViewDelegate,CLLocationManagerDelegate>
