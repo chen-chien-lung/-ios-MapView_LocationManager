@@ -18,12 +18,14 @@ This practice is about the MapView and LocationManager.
  ![image](https://raw.githubusercontent.com/chen-chien-lung/MapView_LocationManager/master/pics/judge1.png)
  
  then we prepare for the locationManager and start to update the location information.
- !(image)(https://raw.githubusercontent.com/chen-chien-lung/MapView_LocationManager/master/pics/prepare_location.png)
+ ![image](https://raw.githubusercontent.com/chen-chien-lung/MapView_LocationManager/master/pics/prepare_location.png)
  
  I know you remember that we implement two IBActions for the two Segmented Controler.
  Let's add some codes that make them work.
  I do the similiar thing in the two IBActions.
  one is to determine mapType and the other is to determine the trackingMode
+ ![image](https://raw.githubusercontent.com/chen-chien-lung/MapView_LocationManager/master/pics/trackingmode.png)
+ ![image](https://raw.githubusercontent.com/chen-chien-lung/MapView_LocationManager/master/pics/maptype.png)
  
  In "didUpdateLocations",I add a NSLog ,and you can find that the system update the location information about once a second.
  
